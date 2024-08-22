@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('/vendor/fonts/Oswald-VariableFont_wght.ttf');
+    font-style: normal;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -33,4 +39,25 @@ nav {
     font-size: 26px;
     text-align: center;
     padding-top: 11px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 112px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 35px;
+    letter-spacing: 1px;
 }
