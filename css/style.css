@@ -67,8 +67,8 @@ h4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1110px;
-    height: 300px;
+    width: 100%;
+    min-height: 300px;
     margin: -150px auto 0;
     background-color: #ffffff;
 }
