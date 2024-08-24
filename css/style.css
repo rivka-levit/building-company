@@ -220,3 +220,14 @@ p.market {
     font-weight: 500;
     text-transform: uppercase;
 }
+
+.accent a .fa-hover-show,
+.accent a:hover .fa-hover-hidden {
+    display: none;
+}
+
+.accent a:hover .fa-hover-show {
+    display: inline-block;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+}
