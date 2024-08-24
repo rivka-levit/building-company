@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     height: 740px;
     background-color: #535059;
@@ -141,7 +145,6 @@ p.market {
 
 .prj img {
     width: 100%;
-    /*height: 380px;*/
 }
 
 .prj h3::before {
@@ -156,8 +159,64 @@ p.market {
 .prj p {
     font-family: 'Anonymous Pro', monospace;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     color: #999999;
     margin-top: 15px;
-    line-height: 1.2;
+    line-height: 1.1;
+}
+
+.accent {
+    height: 181px;
+    background-color: #f7654a;
+}
+
+.accent .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accent_text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.accent_text .title {
+    font-size: 48px;
+}
+
+.accent_text .subtitle {
+    font-size: 24px;
+}
+
+.accent_btn {
+    width: 175px;
+    height: 49px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+.accent_btn span {
+    line-height: 49px;
+    vertical-align: middle;
+}
+
+.envelope {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 1px;
+    font-size: 18px;
+}
+
+.request {
+    display: inline-block;
+    margin-top: -3px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
