@@ -90,6 +90,15 @@ h3 {
     color: #404149;
 }
 
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
 .years {
     padding: 0 100px;
     display: flex;
@@ -230,4 +239,25 @@ p.market {
     display: inline-block;
     animation-iteration-count:1;
     -webkit-animation-iteration-count:1;
+}
+
+.activities {
+    padding: 150px 0;
+}
+
+.activities_content {
+    height: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities_icon > i {
+    color: #f7654a;
+    font-size: 48px;
+}
+
+.activities_content > h4:first-of-type {
+    margin-top: 30px;
 }
