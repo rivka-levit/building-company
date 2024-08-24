@@ -13,6 +13,7 @@
 
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -260,4 +261,9 @@ p.market {
 
 .activities_content > h4:first-of-type {
     margin-top: 30px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
 }
