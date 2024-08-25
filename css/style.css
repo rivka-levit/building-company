@@ -43,14 +43,24 @@ nav {
     height: 60px;
 }
 
-.menu-gamb {
+.burger {
     width: 50px;
     height: 50px;
+    padding: 11px 0;
+    border: none;
     background-color: #f7654a;
     color: #ffffff;
     font-size: 26px;
     text-align: center;
-    padding-top: 11px;
+    /*padding-top: 11px;*/
+}
+
+.burger:hover {
+    background-color: #ee6b53;
+}
+
+.burger:active {
+    background-color: #d7725f;
 }
 
 h1 {
@@ -242,7 +252,8 @@ p.market {
     -webkit-animation-iteration-count:1;
 }
 
-.activities {
+.activities,
+.faq {
     padding: 150px 0;
 }
 
