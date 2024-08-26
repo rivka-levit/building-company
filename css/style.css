@@ -15,6 +15,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 }
 
 .container {
@@ -51,14 +53,13 @@ nav {
 .burger {
     width: 50px;
     height: 50px;
-    padding: 11px 0;
+    padding: 4px 0;
     border: none;
     background-color: #f7654a;
     color: #ffffff;
     font-size: 26px;
     text-align: center;
     margin-top: 9px;
-    margin-right: 1px;
 }
 
 .burger:hover {
@@ -70,9 +71,7 @@ nav {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
     font-size: 64px;
-    font-weight: 500;
     letter-spacing: 1px;
     color: #ffffff;
     text-align: center;
@@ -80,7 +79,6 @@ h1 {
 }
 
 h5 {
-    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
@@ -90,8 +88,6 @@ h5 {
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
     font-size: 36px;
     text-transform: uppercase;
     color: #000000;
@@ -99,16 +95,12 @@ h2 {
 }
 
 h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
     font-size: 24px;
     text-transform: capitalize;
     color: #404149;
 }
 
 h4 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
     font-size: 21px;
     text-transform: uppercase;
     color: #000000;
@@ -132,8 +124,6 @@ h4 {
 }
 
 .years_item p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
     text-align: center;
 }
 
@@ -155,7 +145,7 @@ p.market {
 }
 
 .projects {
-    padding: 100px 0 150px;
+    padding: 100px 0 126px;
 }
 
 .projects .row {
@@ -200,7 +190,6 @@ p.market {
 }
 
 .accent_text {
-    font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
@@ -236,10 +225,8 @@ p.market {
 
 .request {
     display: inline-block;
-    margin-top: -3px;
-    font-family: 'Oswald', sans-serif;
+    margin-top: 2px;
     font-size: 14px;
-    font-weight: 500;
     text-transform: uppercase;
 }
 
