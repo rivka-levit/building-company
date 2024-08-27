@@ -251,6 +251,10 @@ p.market {
     padding: 150px 0;
 }
 
+.activities .row {
+    padding-top: 58px;
+}
+
 .activities_content {
     height: 250px;
     display: flex;
