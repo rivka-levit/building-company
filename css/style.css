@@ -48,7 +48,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo {
@@ -60,17 +60,13 @@ nav {
 .burger {
     width: 50px;
     height: 50px;
-    padding: 4px 0;
+    padding: 0;
     border: none;
-    background-color: #f7654a;
-    color: #ffffff;
-    font-size: 26px;
-    text-align: center;
-    margin-top: 9px;
-}
-
-.burger:hover {
-    background-color: #ee6b53;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-size: 25px;
+    line-height: 1;
 }
 
 .burger:active {
@@ -78,11 +74,12 @@ nav {
 }
 
 h1 {
+    max-width: 734px;
+    margin: 112px auto 0;
     font-size: 64px;
-    letter-spacing: 1px;
+    letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
-    margin-top: 112px;
 }
 
 h5 {
