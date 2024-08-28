@@ -1,14 +1,21 @@
 @font-face {
     font-family: 'Oswald';
-    src: url('/vendor/fonts/Oswald-VariableFont_wght.ttf');
+    src: url('../vendor/fonts/Oswald-VariableFont_wght.ttf');
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/vendor/fonts/OpenSans-Regular.ttf');
+    src: url('../vendor/fonts/OpenSans-Regular.ttf');
     font-style: normal;
     font-weight: 400;
+}
+
+:root {
+    --accent-color: #F7654A;
+    --dark-color: #404149;
+    --gray-color: #999999;
+    --white-color: #ffffff;
 }
 
 * {
@@ -29,9 +36,9 @@ a {
 }
 
 header {
-    height: 740px;
+    min-height: 740px;
     background-color: #535059;
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
