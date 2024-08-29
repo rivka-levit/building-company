@@ -37,7 +37,7 @@ a {
 
 header {
     min-height: 740px;
-    background-color: #535059;
+    background-color: var(--dark-color);
     background-image: url(../img/bg.jpg);
     background-position: top center;
     background-size: cover;
@@ -78,7 +78,7 @@ h1 {
     margin: 112px auto 0;
     font-size: 64px;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -86,7 +86,7 @@ h5 {
     font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--white-color);
     text-align: center;
     margin-top: 20px;
 }
@@ -101,7 +101,7 @@ h2 {
 h3 {
     font-size: 24px;
     text-transform: capitalize;
-    color: #404149;
+    color: var(--dark-color);
 }
 
 h4 {
@@ -119,12 +119,12 @@ h4 {
     width: 100%;
     min-height: 300px;
     margin: -150px auto 0;
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 .years_item {
     width: 190px;
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 .years_item p {
@@ -145,7 +145,7 @@ p.year {
 
 p.market {
     font-size: 18px;
-    color: #999999;
+    color: var(--gray-color);
 }
 
 .projects {
@@ -157,7 +157,7 @@ p.market {
 }
 
 .projects h2 {
-    color: #404149;
+    color: var(--dark-color);
 }
 
 .prj img {
@@ -167,7 +167,7 @@ p.market {
 .prj h3::before {
     display: block;
     content: "";
-    border-top: 6px solid #f7654a;
+    border-top: 6px solid var(--accent-color);
     width: 16%;
     margin-top: 37px;
     margin-bottom: 15px;
@@ -176,14 +176,14 @@ p.market {
 .prj p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #999999;
+    color: var(--gray-color);
     margin-top: 15px;
     line-height: 1.3;
 }
 
 .accent {
     height: 181px;
-    background-color: #f7654a;
+    background-color: var(--accent-color);
 }
 
 .accent .container {
@@ -197,7 +197,7 @@ p.market {
 .accent_text {
     float: left;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--white-color);
     text-transform: uppercase;
 
 }
@@ -219,7 +219,7 @@ p.market {
     width: 175px;
     height: 49px;
     padding: 0 0 0 30px;
-    background-color: #ffffff;
+    background-color: var(--white-color);
     color: #000000;
 }
 
@@ -268,7 +268,7 @@ p.market {
 }
 
 .activities_icon > i {
-    color: #f7654a;
+    color: var(--accent-color);
     font-size: 48px;
 }
 
