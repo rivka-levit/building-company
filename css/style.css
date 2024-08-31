@@ -302,6 +302,9 @@ h5 {
         font-size: 50px;
         margin: 52px auto 0;
     }
+    h2 {
+        font-size: 32px;
+    }
     h5 {
         font-size: 18px;
     }
@@ -324,6 +327,12 @@ h5 {
 
     .about_p {
         font-size: 14px;
+    }
+    .projects {
+        padding: 50px 0 56px;
+    }
+    .projects .row {
+        margin-top: 0;
     }
 }
 
@@ -350,6 +359,9 @@ h5 {
     }
     h5 {
         font-size: 14px;
+    }
+    h2 {
+        font-size: 24px;
     }
     .about_content {
         padding: 15px 10px;
