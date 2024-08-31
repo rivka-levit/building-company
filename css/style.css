@@ -281,7 +281,53 @@ h5 {
     height: 100%;
 }
 
-@media screen and (width < 576px) {
+@media screen and (width < 992px) {
+    .container {
+        max-width: 700px;
+    }
+    header {
+        min-height: 500px;
+        padding-top: 10px;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .burger {
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 52px auto 0;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .about_content {
+        padding: 0 30px;
+        min-height: 200px;
+        margin: -100px auto 0;
+    }
+    .about_item {
+        min-width: 112px;
+    }
+    .about__title {
+        font-size: 52px;
+    }
+
+    .about__subtitle {
+        font-size: 26px;
+        margin-top: 0;
+    }
+
+    .about_p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (width < 768px) {
     .container {
         max-width: 350px;
     }
@@ -325,3 +371,4 @@ h5 {
         font-size: 14px;
     }
 }
+
