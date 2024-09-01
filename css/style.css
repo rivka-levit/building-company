@@ -281,9 +281,18 @@ h5 {
     height: 100%;
 }
 
+@media screen and (width < 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .about_content {
+        padding: 0 70px;
+    }
+}
+
 @media screen and (width < 992px) {
     .container {
-        max-width: 700px;
+        max-width: 720px;
     }
     header {
         min-height: 500px;
