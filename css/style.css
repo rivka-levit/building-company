@@ -189,9 +189,6 @@ h5 {
 .accent .container {
     height: 100%;
     padding-top: 30px;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
 }
 
 .accent_text {
@@ -404,6 +401,32 @@ h5 {
 
     .about_p {
         font-size: 14px;
+    }
+    .accent .container {
+        height: 100%;
+        display: block;
+        padding-top: 12px;
+    }
+    .accent_text {
+        float: unset;
+    }
+    .accent_text .title {
+        font-size: 30px;
+    }
+    .accent_text .subtitle {
+        font-size: 15px;
+    }
+    .accent_btn {
+        float: unset;
+        margin: 20px auto 0;
+        height: 38px;
+    }
+    .envelope {
+        margin-top: 5px;
+    }
+    .request {
+        display: inline-block;
+        margin-top: 8px;
     }
 }
 
