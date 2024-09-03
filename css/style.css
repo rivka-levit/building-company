@@ -153,7 +153,7 @@ h5 {
 }
 
 .projects .row {
-    margin-top: 50px;
+    margin-top: 2px;
 }
 
 .projects h2 {
@@ -261,6 +261,7 @@ h5 {
 
 .activities_content {
     height: 250px;
+    background-color: #f7f7f7;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -328,12 +329,10 @@ h5 {
     .about__title {
         font-size: 52px;
     }
-
     .about__subtitle {
         font-size: 26px;
         margin-top: 0;
     }
-
     .about_p {
         font-size: 14px;
     }
@@ -342,6 +341,21 @@ h5 {
     }
     .projects .row {
         margin-top: 0;
+    }
+    .accent {
+        height: 162px;
+    }
+    .accent_text .title {
+        font-size: 36px;
+    }
+    .accent_text .subtitle {
+        font-size: 18px;
+    }
+    .accent_btn {
+        margin-top: 22px;
+    }
+    .activities, .faq {
+        padding: 100px 0;
     }
 }
 
