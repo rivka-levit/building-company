@@ -173,7 +173,7 @@ h5 {
     margin-bottom: 15px;
 }
 
-.prj p {
+.text-p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: var(--gray-color);
@@ -249,7 +249,7 @@ h5 {
 
 .activities,
 .faq {
-    padding: 150px 0;
+    padding: 150px 0 154px;
 }
 
 .activities .row {
@@ -277,6 +277,29 @@ h5 {
 .portfolio img {
     width: 100%;
     height: 100%;
+}
+
+.faq-list {
+    margin-top: 52px;
+}
+
+.faq-item:not(:first-child) {
+    margin-top: 33px;
+}
+
+.faq-item h3 {
+    color: var(--accent-color);
+}
+
+.faq-item p {
+    max-width: 730px;
+    margin-top: 24px;
+    margin-left: 2px;
+    line-height: 1.4;
+}
+
+.closed p {
+    display: none;
 }
 
 @media screen and (width < 1200px) {
