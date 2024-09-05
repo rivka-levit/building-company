@@ -316,6 +316,28 @@ h5 {
     display: none;
 }
 
+.partners {
+    max-height: 364px;
+    padding: 100px 0;
+    background-color: var(--dark-color);
+}
+
+.partners h2 {
+    color: var(--white-color);
+}
+
+.companies {
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.companies img {
+    display: block;
+    max-width: 170px;
+}
+
 @media screen and (width < 1200px) {
     .container {
         max-width: 960px;
