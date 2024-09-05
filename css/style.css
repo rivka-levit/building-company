@@ -291,10 +291,24 @@ h5 {
     color: var(--accent-color);
 }
 
+.faq-item h3::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.open h3::before {
+    transform: rotate(-90deg);
+}
+
 .faq-item p {
     max-width: 730px;
     margin-top: 24px;
-    margin-left: 2px;
     line-height: 1.4;
 }
 
