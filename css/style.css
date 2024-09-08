@@ -201,12 +201,12 @@ h5 {
 
 .accent_text .title {
     font-size: 48px;
-    letter-spacing: 2px;
+    letter-spacing: 0.05em;
 }
 
 .accent_text .subtitle {
     font-size: 24px;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
     margin-top: 6px;
 }
 
@@ -247,8 +247,7 @@ h5 {
     -webkit-animation-iteration-count:1;
 }
 
-.activities,
-.reviews {
+.activities {
     padding: 150px 0 154px;
 }
 
@@ -340,6 +339,10 @@ h5 {
 .companies img {
     display: block;
     max-width: 170px;
+}
+
+.reviews {
+    padding: 150px 0 144px;
 }
 
 .reviews .row {
@@ -517,9 +520,10 @@ h5 {
     }
     .accent_text {
         float: unset;
+        text-align: center;
     }
     .accent_text .title {
-        font-size: 30px;
+        font-size: 28px;
     }
     .accent_text .subtitle {
         font-size: 15px;
