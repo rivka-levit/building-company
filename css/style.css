@@ -321,7 +321,7 @@ h5 {
 }
 
 .partners {
-    max-height: 364px;
+    min-height: 364px;
     padding: 100px 0;
     background-color: var(--dark-color);
 }
@@ -449,8 +449,18 @@ h5 {
     .accent_btn {
         margin-top: 22px;
     }
-    .activities, .faq {
+    .activities, .faq, .reviews {
         padding: 100px 0;
+    }
+    .partners {
+        min-height: 200px;
+        padding: 50px 0 54px;
+    }
+    .companies {
+        margin-top: 30px;
+    }
+    .companies img {
+        max-width: 120px;
     }
 }
 
