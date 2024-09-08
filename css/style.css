@@ -536,5 +536,12 @@ h5 {
         display: inline-block;
         margin-top: 8px;
     }
+    .companies {
+        justify-content: center;
+        column-gap: 30px;
+    }
+    .companies img {
+        max-width: 150px;
+    }
 }
 
