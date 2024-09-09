@@ -32,7 +32,9 @@
 }
 
 a {
+    /*text-decoration-line: none;*/
     text-decoration: none;
+    color: inherit;
 }
 
 header {
@@ -376,6 +378,38 @@ h5 {
 .org-name {
     color: var(--accent-color);
     letter-spacing: 0.01em;
+}
+
+.contacts {
+    padding: 100px 0 150px;
+}
+
+.contacts .row {
+    margin-top: 44px;
+}
+
+.contact-icon {
+    font-size: 48px;
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.contacts h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-type {
+    color: var(--gray-color);
+    margin-top: 10px;
+}
+
+.contact-info {
+    margin-top: 18px;
+}
+
+.contacts a > h3 {
+    color: var(--accent-color);
 }
 
 /* -------------------- Media requests -------------------- */
