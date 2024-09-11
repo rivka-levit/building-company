@@ -613,5 +613,10 @@ footer .container {
     .companies img {
         max-width: 150px;
     }
+    .footer-info {
+        justify-content: center;
+        flex-flow: row wrap;
+        align-content: center;
+    }
 }
 
