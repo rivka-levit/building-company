@@ -412,6 +412,28 @@ h5 {
     color: var(--accent-color);
 }
 
+footer {
+    height: 82px;
+    background-color: var(--dark-color);
+}
+
+footer .container {
+    height: 100%;
+}
+
+.footer-info {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--white-color);
+}
+
 /* -------------------- Media requests -------------------- */
 
 @media screen and (width < 1200px) {
